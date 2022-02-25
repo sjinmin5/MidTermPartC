@@ -11,8 +11,7 @@ public class TestUserprofile extends UserProfile{
         
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your name");
-        String name = sc.nextLine();
-        
+        String name = sc.nextLine();        
         up.setUserID(name);
         
         System.out.println("Choose your favourite Genre from a displayed list");
